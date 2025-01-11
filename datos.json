@@ -1,0 +1,38 @@
+{
+  "men_lateral": [
+    {
+      "Titulo": "Usuarios Registrados",
+      "icono": "ruta del icono",
+      "id": "usuarios"
+
+  },
+    {
+      "Titulo": "Asistencias Registradas",
+      "icono": "ruta del icono",
+      "id": "asistencias_registradas"
+
+  }, {
+      "Titulo": "Registrar Datos Ancianos",
+      "icono": "ruta del icono",
+      "id": "registrar_datos"
+
+  }, {
+      "Titulo": "Actualizar Datos Ancianos",
+      "icono": "ruta del icono",
+      "id": "Actualizar_datos"
+
+  }, {
+      "Titulo": "Eliminar Usuario",
+      "icono": "ruta",
+      "id": "Eliminar_usuario"
+  }, {
+      "Titulo": "Seleccionar Usuarios Por Iglesia",
+      "icono": "ruta del icono",
+      "id": "Seleccionar_x_iglesia"
+  },{
+    "Titulo": "Reporete para credencial",
+    "icono": "ruta",
+    "id": "Reporte_para_credencial"
+  }
+    ]
+}

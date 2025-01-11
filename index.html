@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+
+<body id="cuerpo">
+  <div class="principal">
+    <div class="encabezado">
+      <p class="app" id="app">&#9776;</p>
+      <h4 class="titulo">Registro Estudio Nacional</h4>
+      <div class="reloj">
+        <div class="marcadores">
+          <h3 id="HORA" class="hora">00</h3>
+          <!--h3 id="minuto" class="minuto">00</h3>
+          <h3 id="segundo" class="segundo">00</h3-->
+          <span class="meridiano">AM</span>
+        </div>
+        <div id="fecha" class="fecha">
+        </div>
+      </div>
+    </div>
+    <div id="lateral" class="lateral">
+      <div class="encabezado_lateral" id="encabezado_lateral">
+      </div>
+      <div class="menuprincipal_lateral">
+
+        <ul id="menu_lateral" class="men_lateral">
+
+
+        </ul>
+      </div>
+    </div>
+    <div class="titulo_pagina" id="titulo_pagina">
+      Bienvenido
+    </div>
+    <div id="presentacion" class="presentacion">
+    </div>
+    <div id="pantalla">
+      <div id="div_tabla">
+        <table id="tabla" border="0">
+          <!--thead>
+            <tr>
+              <th id="codigo">Codigo</th>
+              <th id="fecha">Fecha</th>
+              <th id="hora">Hora</th>
+            </tr-->
+          </thead>
+          <tbody id="res"> </tbody>
+        </table>
+      </div>
+  </div>
+  <div id="div_formulario">
+    <input type="number" id="input_codigo" placeholder="Codigo">
+    <button id="btn_agregar">Registrar</button>
+  </div>
+  <div id="busqueda_asistencias" class="busqueda_asistencias">
+    <label for="input_busqueda_codigo">Buscar asistencias por código:</label>
+    <input type="text" id="input_busqueda_codigo" class="input_busqueda_codigo" placeholder="Ingrese el código">
+    <button id="btnBusqueda">Buscar</button>
+  </div>
+  <div id="resultado_asistencias" class="resultado_asistencias">
+    
+  </div>
+  <div class="busqueda">
+    <label for="inputBusqueda">Filtrar Usuarios por sus datos</label><input type="text" id="inputBusqueda" placeholder="Buscar usuarios..." />
+    <!--input type="text" id="inputBusqueda" placeholder="Buscar usuarios..." oninput="filtrarUsuarios(this.value)" /-->
+  </div>
+  <div class="filtro-iglesia" id="filtro-iglesia">
+    <label for="selectIglesia">Filtrar por Iglesia:</label>
+    <select id="selectIglesia" onchange="filtrarPorIglesia()">
+      <option value="">Selecciona una iglesia</option>
+      <!-- Las opciones pueden generarse dinámicamente -->
+    </select>
+  </div>
+
+  </div>
+  <script src="main.js"="text/javascript" charset="utf-8"></script>
+
+  <script src="introducción.js"></script>
+  <script src="filtrar_usuarios.js"></script>
+  <script src="hora.js"></script>
+  <script src="menu_lateral.js">
+  </script>
+  <script src="filtrar_usuarios_por_iglesia_asustencias.js"></script>
+</body>
+
+</html>
